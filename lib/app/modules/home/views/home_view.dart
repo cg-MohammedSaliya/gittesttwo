@@ -18,11 +18,15 @@ class HomeView extends GetView<HomeController> {
         child: Column(
           children:const  [
             Text(
-              'previous branch Gittey branch',
+              'Gittey branch',
               style: TextStyle(fontSize: 20),
             ),
             Text(
-              'Now am in TestBranch',
+              'previous TestBranch',
+              style: TextStyle(fontSize: 20),
+            ),
+            Text(
+              'Now am in Test3branch',
               style: TextStyle(fontSize: 20),
             ),
           ],
