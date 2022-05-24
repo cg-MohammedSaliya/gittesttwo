@@ -5,6 +5,7 @@ import 'package:get/get.dart';
 import '../controllers/home_controller.dart';
 
 class HomeView extends GetView<HomeController> {
+
   const HomeView({Key? key}) : super(key: key);
 
   @override
@@ -16,7 +17,7 @@ class HomeView extends GetView<HomeController> {
       ),
       body: const Center(
         child: Text(
-          'HomeView is ',
+          'Now am Gitkey branchs',
           style: TextStyle(fontSize: 20),
         ),
       ),
