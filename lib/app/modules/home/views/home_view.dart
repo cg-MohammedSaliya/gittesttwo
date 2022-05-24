@@ -16,6 +16,8 @@ class HomeView extends GetView<HomeController> {
       ),
       body: Center(
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.center,
           children:const  [
             Text(
               'Gittey branch',
